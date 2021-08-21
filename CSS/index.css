@@ -17,29 +17,6 @@ body {
 
 
 
-#menu {
-	position: absolute;
-	top: 10px;
-	width: 60px; 
-	cursor: pointer;
-}
-
-
-
-#menu-image {
-	position: absolute;
-	left: 12.5px
-}
-
-
-
-#menu-image:hover {
-	height: 37px;
-	width: 37px;
-}
-
-
-
 #home {
 	position: absolute;
 	top: 25%;
@@ -172,7 +149,7 @@ body {
 
 
 #dp-frame {
-	width: 320px
+	width: 320px;
 }
 
 
@@ -184,7 +161,7 @@ body {
 	height: 300px;
 	width: 300px;
 	border-radius: 50%;
-	box-shadow: 4px 4px 10px black
+	box-shadow: 4px 4px 10px black;
 }
 
 
@@ -193,7 +170,7 @@ body {
 #name-header {
 	margin: 0;
 	color: cyan;
-	font-size: 40px
+	font-size: 2.5em
 }
 
 
@@ -211,7 +188,7 @@ body {
 
 
 #program-header {
-	color: cyan
+	color: lime;
 }
 
 
@@ -358,7 +335,8 @@ body {
 	border-radius: 5px;
 	background-color: cyan;
 	animation-name: slideUp1;
-	animation-duration: 2s
+	animation-duration: 2s;
+	box-shadow: 0 0 4px cyan
 }
 
 
@@ -372,7 +350,8 @@ body {
 	border-radius: 5px;
 	background-color: lime;
 	animation-name: slideUp2;
-	animation-duration: 2s
+	animation-duration: 2s;
+	box-shadow: 0 0 4px lime
 }
 
 
@@ -386,7 +365,8 @@ body {
 	border-radius: 5px;
 	background-color: yellow;
 	animation-name: slideUp3;
-	animation-duration: 2s
+	animation-duration: 2s;
+	box-shadow: 0 0 4px yellow
 }
 
 
@@ -400,7 +380,8 @@ body {
 	border-radius: 5px;
 	background-color: #F535AA ;
 	animation-name: slideUp4;
-	animation-duration: 2s
+	animation-duration: 2s;
+	box-shadow: 0 0 4px #F535AA
 }
 
 
@@ -411,8 +392,6 @@ body {
 	top: 5%;
 	width: 80%;
 	display: none;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 10px;
 	animation-name: fadeIn;
 	animation-duration: 2s;
 
@@ -422,17 +401,81 @@ body {
 
 #code-list {
 	display: grid;
-	width: 90%;
+	width: 100%;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 10px;
+	margin-bottom: 2em
 }
 
 
 
 .cards {
 	background-color: black;
-	height: 100px;
 	border-radius: 10px;
 	padding-left: 10px;
+	padding-right: 20px;
 	border: 1px solid white;
+	cursor: pointer;
+}
+
+
+
+.language {
+	color: white;
+}
+
+
+
+#python::before {
+	position: relative;
+	content: '';
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	background-color: cyan;
+	right: 0.2em;
+	top: 0.2em
+}
+
+
+
+#html::before {
+	position: relative;
+	content: '';
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	background-color: orange;
+	right: 0.2em;
+	top: 0.2em
+}
+
+
+
+#css::before {
+	position: relative;
+	content: '';
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	background-color: purple;
+	right: 0.2em;
+	top: 0.2em
+}
+
+
+
+#js::before {
+	position: relative;
+	content: '';
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	background-color: yellow;
+	right: 0.2em;
+	top: 0.2em
 }
