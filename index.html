@@ -92,17 +92,17 @@
 
 		<div id="code-list">
 
-			<div class="cards" id="card1">
+			<div class="cards" id="card1" onclick="coronaDisc()">
 				<h2 style="color: blue">CoronaLive App</h2>
 				<h2 class="language" id="python" align="right">Python</h2>
 			</div>
 
-			<div class="cards" id="card2">
+			<div class="cards" id="card2" onclick="snakeDisc()">
 				<h2 style="color: blue">Snake Game</h2>
 				<h2 class="language" id="python" align="right">Python</h2>
 			</div>
 			
-			<div class="cards" id="card3">
+			<div class="cards" id="card3" onclick="tikDisc()">
 				<h2 style="color: blue">Tik Tak Toe</h2>
 				<h2 class="language" id="python" align="right">Python</h2>
 			</div>
@@ -127,9 +127,41 @@
 				<h2 class="language" id="python" align="right">Python</h2>
 			</div>
 		</div>
-	</div>
 
 	</div>
+
+	<div class="card-disc" id="corona-disc">
+		<h1 style="color: cyan;" align="center"><u>CoronaLive App</u></h1>
+		<br>
+		<p style="color: white; font-size: 1.5em" align="center">This was an app I made using python and a library called tkinter. I also used a service called parsehub that makes it a lot easier to scrape a website and provide the information in them in the form of JSON that you can get using an API. The app pretty much gets the latest info from a site, and displays it to you after you type in the country you want.</p>
+
+		<div class="close-disc" onclick="closeCoronaDisc()">
+			<h1 style="color: grey; font-weight: bold;">&times</h1>
+		</div>
+	</div>
+
+	<div class="card-disc" id="snake-disc">
+		<h1 style="color: cyan;" align="center"><u>Snake Game</u></h1>
+		<br>
+		<p style="color: white; font-size: 1.5em" align="center">your classic old 2D snake game made using pygame. No clue if the code used is similar to anything other programmers use to make it as I tried my best not to look at stack overflow. This took me about 4 hours.</p>
+
+		<div class="close-disc" onclick="closeSnakeDisc()">
+			<h1 style="color: grey; font-weight: bold;">&times</h1>
+		</div>
+	</div>
+
+	<div class="card-disc" id="tik-disc">
+		<h1 style="color: cyan;" align="center"><u>Tik Tak Toe</u></h1>
+		<br>
+		<p style="color: white; font-size: 1.5em" align="center">A simple tik toe toe game (without GUI) made using a lot of print and if-else statements. You also have an option to play against an unintelligent bot or against a friend. This too was made using Python.</p>
+
+		<div class="close-disc" onclick="closeTikDisc()">
+			<h1 style="color: grey; font-weight: bold;">&times</h1>
+		</div>
+	</div>
+
+	<div id="overlay"></div>
+
 
 	<script src="JS/index.js"></script>
 

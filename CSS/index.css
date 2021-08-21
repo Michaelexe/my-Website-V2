@@ -487,3 +487,49 @@ body {
 	transform: scale(1.02);
 	background-color: rgb(30,30,30);
 }
+
+
+
+#overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+
+.card-disc {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+	width: 75%;
+	height: 80%;
+	background-color: rgb(50,50,50);
+	border-radius: 20px;
+	border: 2px solid black;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+
+
+.close-disc {
+	position: absolute;
+	display: flex;
+	top: 1em;
+	right: 3em;
+	width: 3em;
+	height: 3em;
+	border-radius: 50%;
+	border: 2px solid black;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
