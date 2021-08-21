@@ -107,22 +107,22 @@
 				<h2 class="language" id="python" align="right">Python</h2>
 			</div>
 
-			<div class="cards" id="card4">
+			<div class="cards" id="card4" onclick="autoDisc()">
 				<h2 style="color: blue">Automatic File Mover</h2>
 				<h2 class="language" id="python" align="right">Python</h2>
 			</div>
 
-			<div class="cards" id="card5">
+			<div class="cards" id="card5" onclick="webDisc()">
 				<h2 style="color: blue">Website-1</h2>
 				<h2 class="language" id="html" align="right">mostly HTML</h2>
 			</div>
 
-			<div class="cards" id="card6">
+			<div class="cards" id="card6" onclick="thisWebDisc()">
 				<h2 style="color: blue">This Website</h2>
 				<h2 class="language" id="css" align="right">mostly CSS</h2>
 			</div>
 
-			<div class="cards" id="card1">
+			<div class="cards" id="card7" onclick="passDisc()">
 				<h2 style="color: blue">Password Improver</h2>
 				<h2 class="language" id="python" align="right">Python</h2>
 			</div>
@@ -156,6 +156,46 @@
 		<p style="color: white; font-size: 1.5em" align="center">A simple tik toe toe game (without GUI) made using a lot of print and if-else statements. You also have an option to play against an unintelligent bot or against a friend. This too was made using Python.</p>
 
 		<div class="close-disc" onclick="closeTikDisc()">
+			<h1 style="color: grey; font-weight: bold;">&times</h1>
+		</div>
+	</div>
+
+	<div class="card-disc" id="auto-disc">
+		<h1 style="color: cyan;" align="center"><u>Automatic File Mover</u></h1>
+		<br>
+		<p style="color: white; font-size: 1.5em" align="center">Just a simple script made using the OS module in python that moves the files present in the downloads folder to their own respective folder depending on the file type.</p>
+
+		<div class="close-disc" onclick="closeAutoDisc()">
+			<h1 style="color: grey; font-weight: bold;">&times</h1>
+		</div>
+	</div>
+
+	<div class="card-disc" id="pass-disc">
+		<h1 style="color: cyan;" align="center"><u>Password Improver</u></h1>
+		<br>
+		<p style="color: white; font-size: 1.5em" align="center">Yet another app made with tkinter for the GUI and a lot of if-else statements. Pretty much this takes in your password and changes it into something longer and unpredictable. It also saves them into a password.txt file in the same folder as the app. Again, this was made with Python.</p>
+
+		<div class="close-disc" onclick="closePassDisc()">
+			<h1 style="color: grey; font-weight: bold;">&times</h1>
+		</div>
+	</div>
+
+	<div class="card-disc" id="web-disc">
+		<h1 style="color: cyan;" align="center"><u>Website No.1</u></h1>
+		<br>
+		<p style="color: white; font-size: 1.5em" align="center">This was the first time I ever made a website using HTML, CSS, and JavaScript. It was anything amazing, it did't have any animations, had pictures that I didn't own, everything was made using pixels and a looot of divs that I didnt really need. That's why this website exists.</p>
+
+		<div class="close-disc" onclick="closeWebDisc()">
+			<h1 style="color: grey; font-weight: bold;">&times</h1>
+		</div>
+	</div>
+
+	<div class="card-disc" id="this-web-disc">
+		<h1 style="color: cyan;" align="center"><u>This Website</u></h1>
+		<br>
+		<p style="color: white; font-size: 1.5em" align="center">This is just my attempt to make something better than my previous attempt. I tried using transitions and animations and also tried using flexboxes and grid wherever I could to avoid any ugly code.</p>
+
+		<div class="close-disc" onclick="closeThisWebDisc()">
 			<h1 style="color: grey; font-weight: bold;">&times</h1>
 		</div>
 	</div>

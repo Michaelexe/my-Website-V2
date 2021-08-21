@@ -53,6 +53,34 @@ function tikDisc() {
 
 
 
+function autoDisc() {
+	document.getElementById('auto-disc').style.display = 'block';
+	document.getElementById('overlay').style.display = 'block';
+}
+
+
+
+function passDisc() {
+	document.getElementById('pass-disc').style.display = 'block';
+	document.getElementById('overlay').style.display = 'block';
+}
+
+
+
+function webDisc() {
+	document.getElementById('web-disc').style.display = 'block';
+	document.getElementById('overlay').style.display = 'block';
+}
+
+
+
+function thisWebDisc() {
+	document.getElementById('this-web-disc').style.display = 'block';
+	document.getElementById('overlay').style.display = 'block';
+}
+
+
+
 function closeCoronaDisc() {
 	document.getElementById('corona-disc').style.display = 'none';
 	document.getElementById('overlay').style.display = 'none';
@@ -69,5 +97,33 @@ function closeSnakeDisc() {
 
 function closeTikDisc() {
 	document.getElementById('tik-disc').style.display = 'none';
+	document.getElementById('overlay').style.display = 'none';
+}
+
+
+
+function closeAutoDisc() {
+	document.getElementById('auto-disc').style.display = 'none';
+	document.getElementById('overlay').style.display = 'none';
+}
+
+
+
+function closePassDisc() {
+	document.getElementById('pass-disc').style.display = 'none';
+	document.getElementById('overlay').style.display = 'none';
+}
+
+
+
+function closeWebDisc() {
+	document.getElementById('web-disc').style.display = 'none';
+	document.getElementById('overlay').style.display = 'none';
+}
+
+
+
+function closeThisWebDisc() {
+	document.getElementById('this-web-disc').style.display = 'none';
 	document.getElementById('overlay').style.display = 'none';
 }
