@@ -398,7 +398,41 @@ body {
 	height: 10px;
 	width: 76%;
 	border-radius: 5px;
-	background-color: #F535AA;
+	background-color: #F535AA ;
 	animation-name: slideUp4;
 	animation-duration: 2s
+}
+
+
+
+#code-content {
+	position: absolute;
+	left: 12.5%;
+	top: 5%;
+	width: 80%;
+	display: none;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	animation-name: fadeIn;
+	animation-duration: 2s;
+
+}
+
+
+
+#code-list {
+	display: grid;
+	width: 90%;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+
+
+
+.cards {
+	background-color: black;
+	height: 100px;
+	border-radius: 10px;
+	padding-left: 10px;
+	border: 1px solid white;
 }
