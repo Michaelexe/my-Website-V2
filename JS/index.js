@@ -127,3 +127,43 @@ function closeThisWebDisc() {
 	document.getElementById('this-web-disc').style.display = 'none';
 	document.getElementById('overlay').style.display = 'none';
 }
+
+
+
+function closeMenu() {
+	document.getElementById('menu-open').style.display = 'none';
+}
+
+
+
+function openMenu() {
+	document.getElementById('menu-open').style.display = 'flex';
+}
+
+
+
+function skillsMenuClick() {
+	document.getElementById('home-content').style.display = "none"
+	document.getElementById('code-content').style.display = "none"
+	document.getElementById('skills-content').style.display = "block"
+	document.getElementById('menu-open').style.display = "none"
+
+}
+
+
+
+function homeMenuClick() {
+	document.getElementById('home-content').style.display = "flex"
+	document.getElementById('skills-content').style.display = "none"
+	document.getElementById('code-content').style.display = "none"
+	document.getElementById('menu-open').style.display = "none"
+}
+
+
+
+function codeMenuClick() {
+	document.getElementById('home-content').style.display = "none"
+	document.getElementById('skills-content').style.display = "none"
+	document.getElementById('code-content').style.display = "block"
+	document.getElementById('menu-open').style.display = "none"
+}

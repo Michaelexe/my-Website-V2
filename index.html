@@ -1,15 +1,21 @@
 <html>
 <head>
+	<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+
 	<link rel="stylesheet" href="CSS/index.css">
 
 	<title>Michael Ispahani</title>
 </head>
 
 <body>
-	<div id="sidebar">
-		<div id="menu" style="display: none;">
-			<img src="Images/menu.png" height="35px" width="35px" id="menu-image">
+
+	<div id="mobile-nav">
+		<div id="menu" onclick="openMenu()">
+			<img src="Images/menu.png" height="40px" width="40px" id="menu-image">
 		</div>
+	</div>
+
+	<div id="sidebar">
 
 		<div id="home" onclick="homeClick()">
 			<img src="Images/home.png" height="40px" width="40px" id="home-image">
@@ -235,6 +241,29 @@
 	</div>
 
 	<div id="overlay"></div>
+
+	<div id="menu-open">
+
+		<div class="close-menu" onclick="closeMenu()">
+			<h1 style="color: grey; font-weight: bold;">&times</h1>
+		</div>
+
+		<div class="content-button" onclick="homeMenuClick()">
+			<h1 class="content-name" align="center">HOME</h1>
+		</div>
+
+		<div class="content-button" onclick="skillsMenuClick()">
+			<h1 class="content-name" align="center">SKILLS</h1>
+		</div>
+
+		<div class="content-button" onclick="codeMenuClick()">
+			<h1 class="content-name" align="center">CODE</h1>
+		</div>
+
+		<div class="content-button">
+			<h1 class="content-name" align="center">CONTACT ME</h1>
+		</div>
+	</div>
 
 
 	<script src="JS/index.js"></script>
