@@ -516,6 +516,7 @@ body {
 	border: 2px solid black;
 	padding-left: 2em;
 	padding-right: 2em;
+	overflow-y: auto;
 }
 
 
@@ -532,4 +533,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+}
+
+
+
+::-webkit-scrollbar {
+	width: 0px;
 }
