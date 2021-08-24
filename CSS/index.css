@@ -150,7 +150,10 @@ body {
 #home-text{
 	border-right: 2px solid black;
 	flex: 1;
-	padding: 3%
+	padding: 3%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 
@@ -504,6 +507,7 @@ body {
 	right: 0;
 	bottom: 0;
 	display: none;
+	z-index: 10;
 	background-color: rgba(0,0,0,0.5);
 }
 
@@ -515,7 +519,7 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	z-index: 10;
+	z-index: 12;
 	width: 75%;
 	height: 80%;
 	background-color: rgb(50,50,50);
@@ -640,7 +644,7 @@ body {
 	right: 0;
 	bottom: 0;
 	background-color: rgba(0,0,0,0.9);
-	z-index: 7;
+	z-index: 15;
 	display: none;
 	justify-content: center;
 	align-items: center;
@@ -700,6 +704,13 @@ body {
 	color: black
 }
 
+
+
+.disc-image {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+}
 
 
 
