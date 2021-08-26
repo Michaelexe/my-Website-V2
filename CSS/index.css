@@ -659,6 +659,8 @@ body {
 	align-items: center;
 	flex-direction: column;
 	gap: 20px;
+	animation-name: fadeIn;
+	animation-duration: 500ms;
 }
 
 
