@@ -324,7 +324,7 @@ body {
 
 @keyframes slideUp2 {
 	from {width:0%;}
-	to{width:48%;}
+	to{width:60%;}
 }
 
 
@@ -332,7 +332,7 @@ body {
 
 @keyframes slideUp3 {
 	from {width:0%;}
-	to{width:12%;}
+	to{width:24%;}
 }
 
 
@@ -365,7 +365,7 @@ body {
 	top: 180px;
 	left: 10%;
 	height: 10px;
-	width: 48%;
+	width: 60%;
 	border-radius: 5px;
 	background-color: lime;
 	animation-name: slideUp2;
@@ -380,7 +380,7 @@ body {
 	top: 280px;
 	left: 10%;
 	height: 10px;
-	width: 12%;
+	width: 24%;
 	border-radius: 5px;
 	background-color: yellow;
 	animation-name: slideUp3;
