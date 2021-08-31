@@ -2,6 +2,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
+	overflow-y: hidden;
 	font-family: sans-serif;
 	background-color: black;
 }
@@ -153,8 +154,7 @@ body {
 	display: flex;
 	animation-name: fadeIn;
 	animation-duration: 2s;
-	background-color: black;
-	border-radius: 20px;
+	overflow-y: auto;
 }
 
 
@@ -202,9 +202,11 @@ body {
 	left: 12.5%;
 	top: 5%;
 	width: 80%;
+	height: 95%;
 	display: none;
 	animation-name: fadeIn;
-	animation-duration: 2s
+	animation-duration: 2s;
+	overflow-y: auto;
 }
 
 
@@ -413,10 +415,11 @@ body {
 	left: 12.5%;
 	top: 5%;
 	width: 80%;
+	height: 95%;
 	display: none;
 	animation-name: fadeIn;
 	animation-duration: 2s;
-
+	overflow-y: auto;
 }
 
 
@@ -426,7 +429,7 @@ body {
 	width: 100%;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 10px;
-	margin-bottom: 2em
+	margin-bottom: 2em;
 }
 
 
@@ -567,7 +570,8 @@ body {
 	width: 80%;
 	display: none;
 	animation-name: fadeIn;
-	animation-duration: 2s
+	animation-duration: 2s;
+	overflow-y: auto;
 }
 
 
