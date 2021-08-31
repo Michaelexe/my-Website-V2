@@ -765,10 +765,10 @@ body {
 	#home-content {
 		flex-direction: column;
 		position: absolute;
-		top: 10%;
+		top: 50px;
 		left: 0;
 		width: 100%;
-		height: 98%;
+		height: 92%;
 	}
 
 
