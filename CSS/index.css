@@ -1,6 +1,6 @@
 body {
-	background-color: rgb(35,35,35);
 	margin: 0px;
+	padding: 0px;
 	overflow-x: hidden;
 	font-family: sans-serif;
 }
@@ -152,6 +152,8 @@ body {
 	display: flex;
 	animation-name: fadeIn;
 	animation-duration: 2s;
+	background-color: black;
+	border-radius: 20px;
 }
 
 
