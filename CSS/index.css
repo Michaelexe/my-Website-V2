@@ -226,6 +226,7 @@ body {
 	border-radius: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
+	padding: 0;
 }
 
 
@@ -799,10 +800,9 @@ body {
 
 
 	#skills-content {
-		position: absolute;
 		left: 5%;
 		top: 10%;
-		width: 80%;
+		width: 90%;
 	}
 
 
