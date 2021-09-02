@@ -648,6 +648,13 @@ body {
 
 
 
+#copied {
+	color: white;
+	margin: 0;
+}
+
+
+
 ::-webkit-scrollbar {
 	width: 0px;
 }

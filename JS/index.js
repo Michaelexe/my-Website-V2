@@ -199,3 +199,58 @@ function contactMenuClick() {
 	document.getElementById('contact-me-content').style.display = "block"
 	document.getElementById('menu-open').style.display = "none"
 }
+
+
+
+
+const email1 = document.querySelector('#email1')
+const emailText1 = email1.children[0].innerHTML
+
+email1.addEventListener('click',function(){
+
+	if (document.querySelector('#copied')!==null){
+		document.querySelector('#copied').remove()
+	}
+
+	const tempElement = document.createElement('textarea')
+	tempElement.value = emailText1
+	document.body.append(tempElement)
+	tempElement.select()
+	document.execCommand('copy')
+	tempElement.remove()
+	const copied = document.createElement('h2')
+	copied.append('COPIED!')
+
+	setTimeout(function(){
+		document.querySelector('.emails-container').append(copied)
+	},500)
+
+	copied.id = 'copied'
+})
+
+
+
+const email2 = document.querySelector('#email2')
+const emailText2 = email2.children[0].innerHTML
+
+email2.addEventListener('click',function(){
+
+	if (document.querySelector('#copied')!==null){
+		document.querySelector('#copied').remove()
+	}
+
+	const tempElement = document.createElement('textarea')
+	tempElement.value = emailText2
+	document.body.append(tempElement)
+	tempElement.select()
+	document.execCommand('copy')
+	tempElement.remove()
+	const copied = document.createElement('h2')
+	copied.append('COPIED!')
+
+	setTimeout(function(){
+		document.querySelector('.emails-container').append(copied)
+	},500)
+
+	copied.id = 'copied'
+})
